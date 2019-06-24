@@ -1,17 +1,56 @@
-body{
-    background-color: aquamarine;
-    padding: 30px;
+.head{
+    background-color: rgb(138, 138, 202);
+    padding: 3px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.links{
+    color:whitesmoke;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+.links:hover{
+    color:red;
+}
+.book-container{
+    display: flex;
+background-color: bisque;
+justify-content: space-around;
+
+}
+.item-book-container{
+    margin: 60px 20px 60px 20px;
+}
+
+.food-container{
+    display: flex;
+background-color: rgb(250, 206, 213);
+justify-content: space-around;
+
+}
+.drink-container{
+    display: flex;
+background-color:rgb(223, 206, 206);
+justify-content: space-around;
+
+}
+.item-drink-container{
+    margin: 60px 20px 60px 20px;
+}
+.phone-container{
+    display: flex;
+background-color: greenyellow;
+justify-content: space-around;
+
+}
+.worker-container{
+    display: flex;
+background-color: rgb(184, 224, 104);
+justify-content: space-around;
+
+}
+.item-container{
     margin: 50px;
-    color: red;
-}
-.a{
-    color: black;
-    background-color: aliceblue;
-}
-.b{
-    color:royalblue;
-    background-color: bisque;
-}
-.c{
-    background-color: chartreuse;
 }
